@@ -1,0 +1,7 @@
+<h1>Data</h1>
+
+<ul class="data-list">
+	<li ng-repeat="data in dummydata | orderBy:orderProp" class="data-item">
+		<a href="#/data/{{data.id}}">{{data.name}}</a>
+	</li>
+</ul>

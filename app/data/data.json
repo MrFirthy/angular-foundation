@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "First item",
+        "ready": true
+    },
+    {
+        "id": 2,
+        "name": "Second item",
+        "ready": false
+    },
+    {
+        "id": 3,
+        "name": "Third item",
+        "ready": true
+    }
+]
