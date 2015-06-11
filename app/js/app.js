@@ -22,6 +22,9 @@ foundationApp.config(['$routeProvider',
         templateUrl: 'partials/data/detail.html',
         controller: 'dataDetailCtrl'
       }).
+      when('/styleguide', {
+        templateUrl: 'partials/styleguide/styleguide.html'
+      }).
       otherwise({
         redirectTo: '/'
       });

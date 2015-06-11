@@ -5,7 +5,7 @@
 describe('foundation App', function() {
 
   it('should redirect index.html to index.html#/', function() {
-    browser.get('app/index.html');
+    browser.get('index.html');
     browser.getLocationAbsUrl().then(function(url) {
         expect(url).toBe('/');
       });
@@ -15,7 +15,7 @@ describe('foundation App', function() {
   describe('data list view', function() {
 
     beforeEach(function() {
-      browser.get('app/index.html#/data/');
+      browser.get('index.html#/data/');
     });
 
 
@@ -59,7 +59,7 @@ describe('foundation App', function() {
   describe('data detail view', function() {
 
     beforeEach(function() {
-      browser.get('app/index.html#/data/1');
+      browser.get('index.html#/data/1');
     });
 
 
